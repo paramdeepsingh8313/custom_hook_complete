@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import useTitleHook from "./components/useTitleCount";
 import Counter1 from "./components/Counter1";
 import Counter2 from "./components/Counter2";
+import Timer from "./components/Timer";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -32,6 +33,9 @@ function App() {
       <Counter1 />
       <br />
       <Counter2 />
+      <br />
+      <br />
+      <Timer />
     </div>
   );
 }
